@@ -1,0 +1,29 @@
+# Large data files
+*.mat
+*.npy
+*.zip
+
+# Model checkpoints
+output/
+*/output/
+*/checkpoint/
+checkpoint/
+*.ckpt*
+*.meta
+*.index
+*.data-00000-of-00001
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# WAV files
+*.wav
+
+# Mac junk
+.DS_Store
+
+# Logs
+*.txt
+!README*
